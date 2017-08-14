@@ -4,7 +4,7 @@ function setup() {
 }
 
 function draw() {
-    fill(50,150,90);
+    fill(255);
     stroke(0,0,0);
     rect(100,100,100,100);
 }
