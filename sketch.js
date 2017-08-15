@@ -1,8 +1,15 @@
+var col = 0;
+
 function setup() {
-    createCanvas(600,600);
-    background(75);
+    createCanvas(600, 600);
+    
 }
 
 function draw() {
-    rect(50,50,20,20);
+    background(col);
+    col = map(mouseX, 0, 600, 0, 255);
+}
+
+function mousePressed(){
+    alert(col);
 }
