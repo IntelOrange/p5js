@@ -3,12 +3,12 @@ var scl = 20;
 var food;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(800, 1000);
   frameRate(15);
   snake = new Snake();
   pickLocation();
   document.getElementById("score");
-  canvas.style = "position:absolute; left: 50%; height: auto; margin-left: -275px;";
+  canvas.style = "position:absolute; left: 50%; height: auto; margin-left: -400px;";
 }
 
 function pickLocation() {
